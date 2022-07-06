@@ -70,6 +70,17 @@ code line 2
 
 By including colons `:` within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:
 
+```markdown
+| Left-Aligned           |     Center Aligned     |          Right Aligned |
+|:-----------------------|:----------------------:|-----------------------:|
+| col 3 is               |    some wordy text     |                  $1600 |
+| col 2 is               |        centered        |                    $12 |
+| zebra stripes          |        are neat        |                     $1 |
+| [tables link](#tables) | [tables link](#tables) | [tables link](#tables) |
+```
+
+Result:
+
 | Left-Aligned           |     Center Aligned     |          Right Aligned |
 |:-----------------------|:----------------------:|-----------------------:|
 | col 3 is               |    some wordy text     |                  $1600 |

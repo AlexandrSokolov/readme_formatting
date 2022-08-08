@@ -40,7 +40,7 @@ This option is useful when:
 | `*Italic 1*`                            | *Italic 1*                            |
 | `_Italic 2_`                            | _Italic 2_                            |
 | `~~Strikethrough~~`                     | ~~Strikethrough~~                     |
-| `` ` See example in the output ``       | ~~`Strikethrough code`~~              |
+| ``~~`Strikethrough code`~~``            | ~~`Strikethrough code`~~              |
 | `**Bold and _nested italic_**`          | **Bold and _nested italic_**          |
 | `***All bold and italic***`             | ***All bold and italic***             |
 | `<sub>This is a subscript text</sub>`   | <sub>This is a subscript text</sub>   |
@@ -67,7 +67,7 @@ cod line 1
 code line 2
 ```
 
-Strikethrough code:
+Strikethrough code wrap it with ``~~``` and ```~~``:
 
 ~~`Strikethrough code`~~
 

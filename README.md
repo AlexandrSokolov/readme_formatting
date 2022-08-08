@@ -67,7 +67,7 @@ cod line 1
 code line 2
 ```
 
-Strikethrough code wrap it with ``~~``` and ```~~``:
+Strikethrough code wrap it with ``~~` `` and `` `~~``:
 
 ~~`Strikethrough code`~~
 

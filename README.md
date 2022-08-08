@@ -39,7 +39,8 @@ This option is useful when:
 | `__Bold 2__`                            | __Bold 2__                            |
 | `*Italic 1*`                            | *Italic 1*                            |
 | `_Italic 2_`                            | _Italic 2_                            |
-| `~~Strikethrough~~`                     | ~~Strikethrough~~`                    |
+| `~~Strikethrough~~`                     | ~~Strikethrough~~                     |
+| `` ` See example in the output ``       | ~~`Strikethrough code`~~              |
 | `**Bold and _nested italic_**`          | **Bold and _nested italic_**          |
 | `***All bold and italic***`             | ***All bold and italic***             |
 | `<sub>This is a subscript text</sub>`   | <sub>This is a subscript text</sub>   |
@@ -65,6 +66,10 @@ Wrap multilines with \`\`\`:
 cod line 1
 code line 2
 ```
+
+Strikethrough code:
+
+~~`Strikethrough code`~~
 
 ### Tables
 

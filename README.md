@@ -1,4 +1,6 @@
 - [Headings](#headings)
+- [Links](#links)
+- [Images](#images)
 - [A table of contents](#a-table-of-contents)
 - [Styling text](#styling-text)
 - [Quoting text/Blockquotes](#quoting)
@@ -16,6 +18,22 @@ The number of # you use will determine the size of the heading.
 ## The second largest heading
 ###### The smallest heading
 ```
+
+### Links
+
+A relative link is a link that is relative to the current file. 
+For example, if you have a `README` file in root of your repository, and you have another file in `docs/CONTRIBUTING.md`, 
+and that `CONTRIBUTING.md` file contains `Reference` header,
+the relative link to `Reference` section located in `CONTRIBUTING.md` in your `README` might look like this:
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md#Reference)
+```
+
+### Images
+
+You can display an image by adding `!` and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ### A table of contents
 When you use two or more headings, GitHub automatically generates a table of contents which you can access by clicking

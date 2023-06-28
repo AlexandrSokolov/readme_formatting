@@ -1,4 +1,5 @@
 - [Headings](#headings)
+- [Collapsed sections](#organizing-information-with-collapsed-sections)
 - [Links](#links)
 - [Images](#images)
 - [A table of contents](#a-table-of-contents)
@@ -18,6 +19,42 @@ The number of # you use will determine the size of the heading.
 ## The second largest heading
 ###### The smallest heading
 ```
+
+### Organizing information with collapsed sections
+
+````
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+````
+
+Result:
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+puts "Hello World"
+```
+</details>
 
 ### Links
 
@@ -84,6 +121,20 @@ Wrap multilines with \`\`\`:
 cod line 1
 code line 2
 ```
+
+
+Wrap \`\`\` inside of quoted text, wrap it with 4 symbols \`\`\`\`:
+
+````text
+```
+Some code
+```
+````
+
+
+
+
+
 
 Strikethrough code wrap it with ``~~` `` and `` `~~``:
 

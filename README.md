@@ -27,11 +27,11 @@ The number of # you use will determine the size of the heading.
 
 <summary>Tips for collapsed sections</summary>
 
-### You can add a header
+### You can add a header within a collapsed section
 
-You can add text within a collapsed section. 
+You can add text within a collapsed section.
 
-You can add an image or a code block, too.
+You can add within a collapsed section an image or a code block, too.
 
 ```ruby
    puts "Hello World"
@@ -45,15 +45,16 @@ Result:
 
 <summary>Tips for collapsed sections</summary>
 
-### You can add a header
+### You can add a header within a collapsed section
 
 You can add text within a collapsed section.
 
-You can add an image or a code block, too.
+You can add within a collapsed section an image or a code block, too.
 
 ```ruby
 puts "Hello World"
 ```
+
 </details>
 
 ### Links
@@ -68,9 +69,17 @@ the relative link to `Reference` section located in `CONTRIBUTING.md` in your `R
 
 ### Images
 
-You can display an image by adding `!` and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
+- You can display an image with its default size by adding `!` and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+    ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+- If you want to resize image use html/css tags instead of Markdown:
+    ````
+    <img src="/image/path" alt="Resized version" width="200">
+    ````
+
+    <img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="Resized version" width="200">
+
 
 ### A table of contents
 When you use two or more headings, GitHub automatically generates a table of contents which you can access by clicking

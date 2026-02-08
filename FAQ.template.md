@@ -4,7 +4,7 @@
 
 ### Question #1
 <details>
-  <summary><strong>Show answer</strong></summary>
+  <summary>Show answer</summary>
 
 Answer #1
 
@@ -12,7 +12,7 @@ Answer #1
 
 ### Question #2
 <details>
-  <summary><strong>Show answer</strong></summary>
+  <summary>Show answer</summary>
 
 Answer #2
 
@@ -21,10 +21,10 @@ Answer #2
 ### Describe a code snippet #X
 
 <details>
-  <summary><strong>Show details</strong></summary>
+  <summary>Show details</summary>
 
 <details>
-  <summary><strong>Show code</strong></summary>
+  <summary>Show code</summary>
 
 ```javascript
 example();
@@ -33,7 +33,7 @@ example();
 </details>
 
 <details>
-  <summary><strong>Show answer</strong></summary>
+  <summary>Show answer</summary>
 
 Your explanation goes here.
 
@@ -51,7 +51,7 @@ Your explanation goes here.
 
 ### Question #3
 <details>
-  <summary><strong>Show answer</strong></summary>
+  <summary>Show answer</summary>
 
 Answer #3
 
@@ -59,7 +59,7 @@ Answer #3
 
 ### Question #4
 <details>
-  <summary><strong>Show answer</strong></summary>
+  <summary>Show answer</summary>
 
 Answer #4
 

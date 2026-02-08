@@ -1,8 +1,6 @@
-## Interview Q&A
-
-<!-- ========= Group 1 ========= -->
+## Group 1
 <details>
-  <summary><h2>Group 1</h2></summary>
+  <summary><strong>Show questions</strong></summary>
 
 ### Question #1
 <details>
@@ -47,9 +45,9 @@ Your explanation goes here.
 
 ---
 
-<!-- ========= Group 2 ========= -->
+## Group 2
 <details>
-  <summary><strong>Group 2</strong></summary>
+  <summary><strong>Show questions</strong></summary>
 
 ### Question #3
 <details>

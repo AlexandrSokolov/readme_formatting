@@ -178,7 +178,7 @@ Just apply the quick fix for the whole table.
 
 ### FAQ - questions with answers
 
-**Avoid using collapsible groups with nested <details> elements.**
+**Avoid using collapsible groups with nested `<details>` elements.**
 Although collapsible sections can make pages look cleaner, they introduce a significant usability drawback:
 Collapsible `<details>` blocks prevent easy deep‑linking to individual questions or sections.
 Because the content is hidden by default, many documentation systems cannot generate or

@@ -1,21 +1,21 @@
 ## Group 1
 
 ### Question #1
-<details><summary><strong><strong>Show answer</strong></summary>
+<details><summary>Show answer</summary>
 
 Answer #1
 
 </details>
 
 ### Question #2
-<details><summary><strong>Show answer</strong></summary>
+<details><summary>Show answer</summary>
 
 Answer #2
 
 </details>
 
 ### Describe a code snippet #X
-<details><summary><strong>Show details</strong></summary>
+<details><summary>Show details</summary>
 
 <details><summary>Show code</summary>
 
@@ -38,14 +38,14 @@ Your explanation goes here.
 ## Group 2
 
 ### Question #3
-<details><summary><strong>Show answer</strong></summary>
+<details><summary>Show answer</summary>
 
 Answer #3
 
 </details>
 
 ### Question #4
-<details><summary><strong>Show answer</strong></summary>
+<details><summary>Show answer</summary>
 
 Answer #4
 

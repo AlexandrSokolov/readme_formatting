@@ -15,7 +15,7 @@ Answer #2
 </details>
 
 ### Describe a code snippet #X
-<details><summary>Show details</summary>
+<details><summary><strong>Show details</strong></summary>
 
 <details><summary>Show code</summary>
 

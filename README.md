@@ -8,7 +8,7 @@
 - [Tables](#tables)
 - [Basic formatting syntax from GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Basic Syntax with best and bad practices](https://www.markdownguide.org/basic-syntax/)
-- [FAQ - questions with answers](FAQ.template.md)
+- [FAQ - questions with answers](#faq---questions-with-answers)
 
 ### Headings
 
@@ -174,3 +174,17 @@ Result:
 
 Note: In IntelliJ IDEA, you get a warning, if you do not format the value itself with the right number of spaces. 
 Just apply the quick fix for the whole table.
+
+
+### FAQ - questions with answers
+
+**Avoid using collapsible groups with nested <details> elements.**
+Although collapsible sections can make pages look cleaner, they introduce a significant usability drawback:
+Collapsible `<details>` blocks prevent easy deep‑linking to individual questions or sections.
+Because the content is hidden by default, many documentation systems cannot generate or
+resolve anchors inside collapsed elements, making it impossible to:
+- copy a direct link to a specific question
+- share a URL that jumps directly to a specific answer
+- reference a particular section reliably in reviews, tickets, PRs, or discussions
+
+[Template on FAQ](FAQ.template.md)
